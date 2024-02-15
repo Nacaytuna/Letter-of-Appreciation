@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter of Appreciation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: linear-gradient(45deg, #3498db, #e74c3c, #27ae60, #f39c12);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            color: #fff;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-in-out;
+            color: #333;
+            line-height: 1.6;
+            max-height: 70vh;
+            overflow: auto;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #555;
+            margin: 15px 0;
+            padding-left: 20px;
+            border-left: 2px solid #3498db;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-style: italic;
+            color: #fff;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 600px) {
+            main {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Letter of Appreciation</h1>
+    </header>
+
+    <main>
+        <button style="background-color: #4CAF50; color: white;">CLICK HERE</button>
+
+
+        <p>Good day everyone, I hope everyone is doing well, una sa tann no dli nakaayo ko mag English kai murag oa ra AHAHHA, anyways, daghan kai salamat sa inyo guys, specially sa managers and TL’s. Sa never sumhan mo sabut nko na manager, maam IBT, sundan dayun sad sa iyang kaluhag understanding na si ate apple, thankyou very much. Then we have managers na naclose nanako along the way sa ilang journey na si maam mera and maam judy and sa mga kamulo now, Thankyou so much sa bond and memories maam and I wish you all the best, and then we have kuya Dave na never najud nako e expect na mo hunung sa iyang ka kugi specially karun, erss AHAHA,</p>
+
+        <p>Then we have clint, nikki and charity, akong mga batch, I wish you guys a huge success cause grabi ka evident inyung mga effort no para sa inyung future, just keep it up guys. I know tann ninyung gina plan in mind matuman rajud in the right time. Then sakong mga kapwa gwapo no HAHAH dining and grill ingats mo guys dli kayo palabi pang chix awat mo nako (walai labut Harrold) AHAHAHA</p>
+
+        <p>Sakong mga kapwa assembler, just keep doing your best guys. I know and I believe ma kaya rana ninyo tann especially pag nay peace inyung mind and calm</p>
+
+        <p>Hello dayun sa mga counter and washers no, just keep it up mga ate. Bisag gaka short dapat gwapa lng jud japun hahahah, anyways. I wanna genuinely say thankyou sa tann guys, dli namo ma remove as part of my journey as a growing individual. When I first enter mang inasal for interview wala jud ko nag expect na madawat ko no kai student baya, or madawat ko pero dli guro mag dugay kai at that time im really an introvert guy, but you guys made it possible na mapagawas kong unsay naa deep inside nko, you guys made me come out of my shell, and bring back the old me in terms of communicating, being responsible, understanding, handling commitment and dedication.</p>
+
+        <p>As i end my journey here sa inasal (for now), I wanna leave you guys a quote.</p>
+
+        <blockquote>
+            “Accepting defeat is not the worst of failures, Not to have tried is the true failure”
+        </blockquote>
+
+        <p>Nacaytuna Joshua, Signing Off As Your Gwapung Assembler</p>
+    </main>
+
+    <footer>
+        <p>LOVE YOU GUYS!!</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var audio = new Audio('byeguys.mp3');
+            audio.loop = true;
+
+            document.addEventListener('click', function () {
+                audio.play();
+            });
+        });
+    </script>
+</body>
+</html>
